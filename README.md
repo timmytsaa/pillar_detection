@@ -13,7 +13,7 @@
 - <code>method</code>: [檢測方法](https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#ga073687a5b96ac7a3ab5802eb5510fe65)。常用為<code>HOUGH_GRADIENT</code>和<code>HOUGH_GRADIENT_ALT</code>
 - <code>dp</code>: 累加解析度和圖片解析度的反比。數值越小,圓的檢測越嚴格(若圓形輪廓不明顯，將不會被檢測;或是可能會檢測出很多不正常的圓)。例如<code>dp = 2</code>,代表累加解析度為圖片解析度的一半。
 - <code>minDist</code>: 圓心間的最小距離。值越小,可能會檢測到錯誤的圓;值太大,則會錯失檢測。
-- <code>param1</code>: 第一個<code>method</code>參數(For <code>HOUGH_GRADIENT</code>和<code>HOUGH_GRADIENT_ALT</code>)。作為較高的的門檻<code>threshold1</code>[@Canny edge detector](https://medium.com/@pomelyu5199/canny-edge-detector-%E5%AF%A6%E4%BD%9C-opencv-f7d1a0a57d19)(<code>threshold2</code>通常為<code>threshold1</code>的3分之1。
+- <code>param1</code>: 第一個<code>method</code>參數(For <code>HOUGH_GRADIENT</code>和<code>HOUGH_GRADIENT_ALT</code>)。作為較高的的門檻<code>threshold1</code>[@Canny edge detector](https://medium.com/@pomelyu5199/canny-edge-detector-%E5%AF%A6%E4%BD%9C-opencv-f7d1a0a57d19)(<code>threshold2</code>通常為<code>threshold1</code>的3分之1)。
 - <code>param2</code>: 第一個<code>method</code>參數(For <code>HOUGH_GRADIENT</code>和<code>HOUGH_GRADIENT_ALT</code>)。它是累加解析度的門檻,應用於檢測圓心。值越小,越不容易檢測到圓。
 - <code>minRadius</code>: 可被接受最小半徑的圓會被檢測(與圖片有關)。
 - <code>maxRadius</code>: 可被接受最大半徑的圓會被檢測(與圖片有關)。
