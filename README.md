@@ -20,7 +20,7 @@
 
 ## 實作及其限制
 *以此快速了解如何使用*
-[unit-test_foto](./unit-test_foto)儲存在同執行檔的路徑層，則會自動提取第一張照片[test1.jpg](./unit-test_foto/test1.jpg)。
+[unit-test_foto](./unit-test_foto)儲存在同執行檔的路徑層，則會自動提取第一張照片。
 三個柱子分別檢測
 ![detected circles](https://github.com/user-attachments/assets/67b61f66-c2d5-4e5c-a3c9-f048d7355da1)  
   
