@@ -3,8 +3,8 @@ import cv2 as cv
 import math
 import os
 
-photo_list = os.listdir("../unit-test_foto/")
-img_name = '/home/timy/Desktop/belongings/python/unit-test_foto/' + photo_list[0]
+photo_list = os.listdir("./unit-test_foto/")
+img_name = '/home/.../unit-test_foto/' + photo_list[0]
 img = cv.imread(img_name,cv.IMREAD_GRAYSCALE)
 assert img is not None,"file couldn't be read"
 img = cv.medianBlur(img, 5)
